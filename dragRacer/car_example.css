@@ -1,0 +1,116 @@
+
+body{
+	background: url(http://tinyurl.com/ktu24sl) no-repeat center; 
+     background-size: cover;
+
+}
+.go{
+	position: absolute;
+	height:30px;
+	width:30px;
+	margin-left:115px;
+	top:465px;
+	z-index: 10;
+
+	
+}
+
+#trackBase{
+    height:150px;
+	width:80%;
+	background-color: yellow;
+	margin-left:100px;
+	margin-right:100px;
+	top:400px;
+	position:absolute;
+	border: solid black;
+ 
+}
+#startLine{
+	height:100%;
+	width:2%;
+	background-color:blue;
+	left: 35px;
+	position: absolute;
+
+}
+#faultLine{
+	height:100%;
+	width:2%;
+	background-color:blue;
+	left: 150px;
+	position: absolute;
+
+}
+#finishLine{
+	height:100%;
+	width:2%;
+	background-color:blue;
+	right: 35px;
+	position: absolute;
+
+}
+
+.rows, .bottom{
+	height:30px;
+	width:6%;
+	background-color:grey;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;	
+	border: solid black;
+	text-color:white;
+	text-align:center;
+	padding:8px;
+}
+
+.circleA div, .circleB div, .circleC div{
+	width: 32px;
+	height: 32px;
+	background: white;
+	border-radius: 50%;
+	display:inline-block;
+	
+}
+.lightsOn div{
+	background:yellow;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	display:inline-block;
+}
+.yellowOn div{
+	background:yellow;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display:inline-block;
+}
+.greenOn div{
+	background:green;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display:inline-block;
+}
+.redOn div{
+	background:red;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display:inline-block;
+}
+
+.lights div{
+	background:white;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	display:inline-block;
+}
+#left {
+	float:left;
+   }
+ #right{
+ 	float:right;
+ }  
